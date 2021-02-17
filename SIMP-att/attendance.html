@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<!-- Compating different devices and applicatons -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />	
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+	<!-- Title bar -->
+	<title>Attendance &nbsp;|&nbsp; Simp</title>
+	<link rel = "icon" type = "image/png" href = "stock/logo.png">
+
+	<!-- Style sheet -->
+	<link rel="stylesheet" type="text/css" href="z-style.css" />
+
+	<!-- Google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins|Grenze Gotisch|Raleway|PT Sans Narrow|Dosis|Staatliches|Lobster|Abel|Overpass|Abril Fatface|Acme|Fira Sans Condensed|Oswald|Open Sans|Rowdies|Anton|Righteous|Alfa Slab One|Francois One|Archivo Black|Passion One|Oleo Script|Monoton|Candal|Carter One|Black Ops One|Racing Sans One|Palanquin Dark|Rakkas|Skranji|Timmana|Styles|Plaster|Roboto+Condensed:wght@700&display=swap" rel="stylesheet" />
+	<link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Syncopate&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Syncopate:wght@700&display=swap" rel="stylesheet">
+
+	<!-- Adobe fonts -->
+	<link rel="stylesheet" href="https://use.typekit.net/wur3dcn.css">
+
+	<!-- jQuery files include -->
+	<script src="jQuery\jQuery compressed.js"></script>
+	<script src="jQuery\jquery-ui.js"></script>
+	<script src="jQuery\jQuery ease1.js"></script>
+	<script src="jQuery\jQuery ease2.js"></script>
+
+
+	<script type="text/javascript" src="z-effect.js"></script>
+</head>
+
+
+<body class="current-page" id="attendance">
+
+<div id="navbar">
+		<img src="stock/logo.png" id="navbar-logo" class="navbar-contents">
+		<p id="navbar-simp" class="navbar-contents">Simp</p>		
+		<a href="" id="navbar-profile" class="navbar-contents">
+			<p id="navbar-arrow"><i id="navbar-arrow-control"></i></p>
+			<img src="stock/dp.jpeg" id="navbar-dp">
+		</a>
+		<div class="navbar-contents" id="navbar-notify"><img src="stock/icon-notify.png" id="navbar-notify-icon"></div>
+		<a href=""class="navbar-contents navbar-menus" id="navbar-tt"><p class="navbar-menus-text" id="navbar-tt-text">Time table</p><div class="navbar-menus-border" id="navbar-tt-border"></div></a>
+		<a href=""class="navbar-contents navbar-menus" id="navbar-attend"><p class="navbar-menus-text" id="navbar-attend-text">Attendence</p><div class="navbar-menus-border" id="navbar-attend-border"></div></a>
+		<a href=""class="navbar-contents navbar-menus" id="navbar-lib"><p class="navbar-menus-text" id="navbar-lib-text">Library</p><div class="navbar-menus-border" id="navbar-lib-border"></div></a>
+		<a href="home.html"class="navbar-contents navbar-menus" id="navbar-home"><p class="navbar-menus-text" id="navbar-home-text">Home</p><div class="navbar-menus-border" id="navbar-home-border"></div></a>
+	</div>
+
+	<!-- Subject tables -->
+
+	<div id="clg-template">		
+		<div id="sub-attendance">
+<table style="width: 100%;color: white;border=1">
+<tr>
+	<td>
+	<table style="width: 100%;color: white;border=1">
+	<tr><th>Subject 1</th></tr>
+	<td rowspan="1"></td><tr><td>Total Present <progress min="0" max="100" value="85"></progress><td rowspan="1"></td></tr>
+	<td rowspan="1"></td><tr><td>Total Absent <progress min="0" max="100" value="15"></progress><td rowspan="1"></td></tr>
+	<td rowspan="1"></td><tr><td>Minimum Requred Attendance: 0</td><td rowspan="1"></td></tr>
+	</table>
+	</td>
+
+	<td>
+	<table style="width: 100%;color: white;border=1">
+	<tr><th>Subject 2</th></tr>
+	<tr><td>Total Present <progress min="0" max="100" value="85"></progress></td></tr>
+	<tr><td>Total Absent <progress min="0" max="100" value="15"></progress></td></tr>
+	<tr><td>Minimum Requred Attendance: 0</td></tr>
+	</table></td>
+
+		<td>
+	<table style="width: 100%;color: white;border=1">
+	<tr><th>Subject 3</th></tr>
+	<tr><td>Total Present <progress min="0" max="100" value="85"></progress></td></tr>
+	<tr><td>Total Absent <progress min="0" max="100" value="15"></progress></td></tr>
+	<tr><td>Minimum Requred Attendance: 0</td></tr>
+	</table></td>
+
+	</tr>
+	
+	<tr>
+	<td>
+	<table style="width: 100%;color: white;border=1">
+		<tr><th>Subject 4</th></tr>
+	<td rowspan="1"></td><tr><td>Total Present <progress min="0" max="100" value="85"></progress><td rowspan="1"></td></tr>
+	<td rowspan="1"></td><tr><td>Total Absent <progress min="0" max="100" value="15"></progress><td rowspan="1"></td></tr>
+	<td rowspan="1"></td><tr><td>Minimum Requred Attendance: 0</td><td rowspan="1"></td></tr>
+	</table>
+	</td>
+
+	<td>
+	<table style="width: 100%;color: white;border=1">
+	<tr><th>Subject 5</th></tr>
+	<tr><td>Total Present <progress min="0" max="100" value="85"></progress></td></tr>
+	<tr><td>Total Absent <progress min="0" max="100" value="15"></progress></td></tr>
+	<tr><td>Minimum Requred Attendance: 0</td></tr>
+	</table></td>
+
+		<td>
+	<table style="width: 100%;color: white;border=1">
+	<tr><th>Subject 6</th></tr>
+	<tr><td>Total Present <progress min="0" max="100" value="85"></progress></td></tr>
+	<tr><td>Total Absent <progress min="0" max="100" value="15"></progress></td></tr>
+	<tr><td>Minimum Requred Attendance: 0</td></tr>
+	</table></td>
+
+</tr>
+</table>
+
+		</div>
+	</div>
+
+<!--
+
+<script>
+function Calcminreq(){
+var min,total,available,attended,absent;
+total=Number(document.getElementById("tot").value);
+available=Number(document.getElementById("avail").value);
+attended=Number(document.getElementById("att").value);
+absent=Number(document.getElementById("abs").value);
+absent=total-attended;
+min=((total*85)/100)-(available+attended);
+document.getElementById("req").value=min;}
+</script>
+
+<body>
+Enter the total number : <input id="tot">
+Enter the available number: <input id="avail">
+Enter the attended number: <input id="att">
+<button onclick="Calcminreq()">Calculate</button>
+Minimun required attendance<input id="req">
+-->
+
+</body>
+</html>
